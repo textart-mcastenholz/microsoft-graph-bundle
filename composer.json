@@ -1,5 +1,5 @@
 {
-    "name": "totalcrm/microsoft-graph-bundle",
+    "name": "textart/microsoft-graph-bundle",
     "type": "symfony-bundle",
     "description": "Symfony bundle for API MicrosoftGraph",
     "keywords": ["symfony", "calendar", "bundle", "contacts", "microsoftgraph", "microsoft", "office 365"],
