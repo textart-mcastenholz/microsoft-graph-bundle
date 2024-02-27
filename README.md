@@ -1,5 +1,22 @@
 This is 1:1 the same as the original, but with an updated composer.json. I wasnt able to install the original, because it was restricted to older dependencies and I already had installed newer ones in my project. So I simply allowed current versions for all dependencies and thats it. Seems to work xD
 
+to use it, I had to change the composer.json in my own, local project, to the following:
+
+"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/textart-mcastenholz/microsoft-graph-bundle"
+        }
+    ],
+
+
+
+  "require": {
+        "totalcrm/microsoft-graph-bundle": "dev-main",
+  }
+
+  then use composer update in your CLI.
+
 
 # TotalCRM MicrosoftGraphBundle
 
