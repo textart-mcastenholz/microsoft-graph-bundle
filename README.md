@@ -1,3 +1,6 @@
+This is 1:1 the same as the original, but with an updated composer.json. I wasnt able to install the original, because it was restricted to older dependencies and I already had installed newer ones in my project. So I simply allowed current versions for all dependencies and thats it. Seems to work xD
+
+
 # TotalCRM MicrosoftGraphBundle
 
 ## Installation
