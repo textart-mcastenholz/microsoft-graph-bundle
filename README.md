@@ -2,6 +2,7 @@ This is 1:1 the same as the original, but with an updated composer.json. I wasnt
 
 to use it, I had to change the composer.json in my own, local project, to the following:
 
+```json
 "repositories": [
         {
             "type": "vcs",
@@ -14,8 +15,14 @@ to use it, I had to change the composer.json in my own, local project, to the fo
   "require": {
         "totalcrm/microsoft-graph-bundle": "dev-main",
   }
+```
 
-  then use composer update in your CLI.
+  then use 
+
+  ```bash
+  composer update
+```
+ in your CLI.
 
 
 # TotalCRM MicrosoftGraphBundle
